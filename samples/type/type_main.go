@@ -11,7 +11,8 @@ func main() {
 	fdt := fdv.Type()
 
 	for i, n := 0, fdt.NumField(); i < n; i++ {
-		fmt.Printf("%s: %v\n", fdt.Field(i).Tag.Get("remark"), fdv.Field(i))
+
+		fmt.Printf("%s %s: %v\n", fdt.Field(i).Name, fdt.Field(i).Tag.Get("remark"), fdv.Field(i))
 	}
 }
 
