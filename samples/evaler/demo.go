@@ -38,7 +38,7 @@ func Struct2Map(obj interface{}) map[string]string {
 	var data = make(map[string]string)
 	for i := 0; i < t.NumField(); i++ {
 		f := v.Field(i)
-		data[t.Field(i).Name] = fmt.Sprint(f)
+		data[t.Field(i).Name] = fmt.Sprint(f.Interface())// fmt.Sprint(f.Interface()) 同 fmt.Sprint(f)
 	}
 	return data
 }
