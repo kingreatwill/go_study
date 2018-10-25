@@ -14,7 +14,7 @@ func main(){
 	r,ok:=result.Float64()
 	fmt.Println("r:",ok,r)
 
-	user := User{5, 6, 3}
+	user := User{5, 6.1, 3.2}
 	data := Struct2Map(user)
 	data2 := Struct2Map2(&user)
 	fmt.Printf("struct2map得到的map内容为:%v \n", data)
@@ -35,8 +35,8 @@ func main(){
 
 type User struct {
 	Id        int    `json:"id"`
-	Username    int    `json:"username"`
-	Password    int    `json:"password"`
+	Username    float64    `json:"username"`
+	Password    float64    `json:"password"`
 }
 
 func Struct2Map(obj interface{}) map[string]string {
