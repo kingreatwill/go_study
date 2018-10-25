@@ -2,9 +2,10 @@ package main
 
 import (
 	"fmt"
-	"github.com/GoesToEleven/GolangTraining/02_package/stringutil"
-	"github.com/GoesToEleven/GolangTraining/02_package/icomefromalaska"
-	//someAlias "github.com/GoesToEleven/GolangTraining/02_package/icomefromalaska"
+
+	"github.com/kingreatwill/go_study/GolangTraining/02_package/icomefromalaska"
+	"github.com/kingreatwill/go_study/GolangTraining/02_package/stringutil"
+	//someAlias "github.com/kingreatwill/go_study/GolangTraining/02_package/icomefromalaska"
 )
 
 func main() {

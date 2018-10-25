@@ -24,7 +24,7 @@
 			* if it can decrypt the message, no other password is needed
 	* at terminal:
 		* ssh -T git@github.com
-		* Hi GoesToEleven! You've successfully authenticated, but GitHub does not provide shell access.
+		* Hi kingreatwill/go_study! You've successfully authenticated, but GitHub does not provide shell access.
 1. Create a server.
     * create droplet
     * hostname
